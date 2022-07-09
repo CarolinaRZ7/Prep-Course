@@ -142,7 +142,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num * num * num;
+  return Math.pow (num,3);
 }
 
 function elevar(num, exponent) {
@@ -180,9 +180,9 @@ function esPositivo(numero) {
   if (numero === 0) {
     return false;
   } else if (numero > 0) {
-    return 'es positivo';
+    return 'Es positivo';
   } else {
-    return 'es negativo';
+    return 'Es negativo';
   } 
 }
   
@@ -206,7 +206,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código: 
-  return 'Hola' + nombre + '!'; 
+  return 'Hola ' + nombre + '!'; 
   
 }
 
